@@ -2,7 +2,12 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'skyblue': '#1877f2',
+        'parrotgreen': '#42b72a',
+      },
+    },
   },
   plugins: [],
 }
